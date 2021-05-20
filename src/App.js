@@ -1,4 +1,8 @@
 function App() {
+  function setInterval() {
+    
+  }
+  
   return <div>
 
   </div>
