@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 
 function App() {
-  let [timeLeft, setTimeLeft] = useState(.3)
+  let [timeLeft, setTimeLeft] = useState(3)
   let [running, setRunning] = useState(false)
 
 
@@ -22,8 +22,9 @@ function App() {
     }
   })
 
+
   function toggleRunning() {
-    setRunning(true)
+    setRunning(running => !running)
   }
 
   function reset() {
