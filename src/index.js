@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App_custom from './App';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App_custom />
   </React.StrictMode>,
   document.getElementById('root')
 );
