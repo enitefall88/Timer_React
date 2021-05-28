@@ -1,9 +1,12 @@
 import React, {useState, useEffect} from "react"
+
 export default function App() {
   let [state, setState] = useState({
     running: false,
     msLeft: 3000,
   })
+
+  //useEffect()
   useEffect(_ => {
     let interval
     if (state.running) {
